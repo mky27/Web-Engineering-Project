@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* Map */
+.map {
+    width: 90%;
+    background-color: #EEEEEE;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 50px;
+    height:700px;
+}
+
+.header {
+    color:#0F044C;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Abril Fatface', serif;
+}
+
+.coverage {
+    border-radius: 50px 50px 0px 0px;
+}

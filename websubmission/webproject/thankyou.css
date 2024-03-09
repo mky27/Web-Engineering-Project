@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body {
+    background-image: url("image/ourstory3.jpg");
+
+}
+
+.thankyouform {
+    text-align: center;
+    width:50%;
+    padding-left:25%;
+    font-size: large;
+    font-weight: 900;
+    padding-top: 3%;
+}
+
+.thankyouform #backhome a:link, #backhome a:visited {
+    background-color: #00ADB5;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid #EEEEEE;
+    width:100px;
+    
+  }
+
+.thankyouform #backhome a:hover, .coverage #backhome a:active {
+    background-color: white;
+    color:#00ADB5;
+    border: 2px solid #00ADB5;
+}

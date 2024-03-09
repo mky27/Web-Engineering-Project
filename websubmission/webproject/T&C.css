@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.theader
+{
+    color:#000080;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.tcontent
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}

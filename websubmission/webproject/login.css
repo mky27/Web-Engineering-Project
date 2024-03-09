@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-image:url(image/loginbackground.jpg)
+}
+
+.box{
+    width: 300px;
+    padding: 38px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background:
+#303030;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    box-shadow: 0px 0px 35px 15px rgb(60, 245, 189);
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+p1{
+    color: white;
+    font-size: 19px;
+    padding-top: 10px;
+    padding-right: 25px;
+    float: right;
+    
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 10px;
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+.back-button:hover {
+  background-color: #ddd;
+}
+
+.back-button span {
+  margin-right: 5px;
+}
+
+
+.box input[type="text"],.box input[type="tel"],.box input[type="password"]{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid lightblue;
+    padding: 14px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 22px;
+    transition: 0.25s;
+}
+.box input[type="text"]:focus,.box input[type="tel"]:focus,.box input[type="password"]:focus{
+    width: 280px;
+    border-color: violet;
+}
+
+
+
+.box input[type="submit"]{
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid violet;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 22px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover{
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+
+.box input[type="register"]{
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid violet;
+    padding: 14px 0px;
+    outline: none;
+    color: white;
+    border-radius: 22px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="register"]:hover{
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+
+.password-toggle {
+        margin-top: 10px;
+        color: white; /* Set the text color to white */
+      }
+      .password-toggle label {
+        color: white; /* Set the label text color to white */
+      }
+      .error-message {
+        color: red;
+      }

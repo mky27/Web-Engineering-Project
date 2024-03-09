@@ -1,0 +1,334 @@
+@charset "utf-8";
+
+/*background*/
+body{
+   background-color:white;
+}
+
+/*img plan*/
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+table#phoneplan,#special,#special1,#special2,#data{
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+
+/*table design*/
+table#phoneplan td {
+    border: 1px solid black;
+    height: 80px;
+}.c
+
+/*corner and color of table*/
+table td.mainc1{
+    border-radius: 20px 0 0 0;
+    background-color: #2C2E43;
+}
+table td.mainc2{
+    border-radius: 0 20px 0 0;
+    background-color: #2C2E43;
+}
+table td.maincccc3{
+    border-radius: 0 0 0 20px;
+    background-color: black;
+}
+table td.maincccc4{
+    border-radius: 0px 0 20px 0;
+    background-color: black;
+}
+.mainc{
+    background-color: #2C2E43;
+}
+.maincc{
+    background-color: #595260;
+}
+.mainccc{
+    background-color: #B2B1B9;
+    height: min-content;
+}
+.maincccc{
+    background-color: black;
+}
+
+/*content design*/
+th {
+    color: darkblue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+.content{
+    text-align: left;
+}
+
+
+p1 {
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFD523;
+    text-align: center;
+    font-weight: bold
+}
+p2 {
+    font-size: 15px;
+    color:white;
+    font-family:monospace;
+}
+
+.mainc,.mainc1,.mainc2{
+    text-align: center;
+}
+.permonth{
+    font-size:23px;
+    text-align: center;
+
+}
+.subtotal{
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+/*list style design*/
+ul {
+    list-style-type: square;
+}
+ul li::before {
+    content: "\2022";
+    color:#FFD523;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DATAPLAN*/
+/*TABLE*/
+
+/*start img*/
+.datacontent{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+h5{ 
+    column-count: 3;
+    column-rule: 1px solid black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+button#changebutton,#changebutton1,#changebutton2{
+    border: none;
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+}
+
+button#changebutton:hover,button#changebutton:focus{
+    color: orange;
+    outline: none;
+}
+button#changebutton1:hover,button#changebutton1:focus{
+    color: rgb(1, 199, 133);
+}
+button#changebutton2:hover,button#changebutton2:focus{
+    color: rgba(45, 154, 218, 0.897);
+}
+.sixtable{
+    display:none;
+}
+.twelvetable{
+    display: none;
+}
+
+.threemonth{
+    font-size: 27px;
+    background-color: orange;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sixmonth{
+    font-size: 27px;
+    background-color: rgb(1, 199, 133);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.twelvemonth{
+    font-size: 27px;
+    background-color: rgba(45, 154, 218, 0.897);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*title of preapaid and postpaid*/
+
+.paid{
+    color:darkblue;
+    font-size: 35px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+}
+
+/*small title*/
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(53, 70, 6);
+}
+
+/*table1 design*/
+
+p8{
+    font-size: 22px;
+    color: rgb(39, 30, 30);
+}
+p9{ 
+    font-size: 20px;
+    font-weight: lighter;
+}
+.money{
+    text-align: center;
+}
+#special td{
+    border: 2px solid orange;
+    height: min-content;
+    font-size: 17px;
+}
+#special1 td{
+    border: 2px solid rgb(1, 199, 133);
+    height: min-content;
+    font-size: 17px;
+}
+#special2 td{
+    border: 2px solid rgba(45, 154, 218, 0.897);
+    height: min-content;
+    font-size: 17px;
+}
+/*table2 design*/
+
+#data{
+    width: 100%;
+}
+
+#data td{
+    border:1px solid white;
+}
+#data td.mid{
+    border: 2px solid rgb(175, 175, 175);
+}
+
+.mid{
+    text-align: left;
+    background-color: rgb(238, 248, 248);
+    border-radius: 30px 30px 30px 30px;
+}   
+
+/*side img*/ 
+.left{
+    text-align: left;
+}
+
+/*content*/
+p3{
+    font-size: 17px;
+    font-family:monospace;
+    color: darkblue
+}
+
+p4{
+    color: red;
+}
+h3{
+    font-size: 30px;
+    color: rgb(53, 70, 6);
+    text-align: right;
+
+}
+small{
+    font-size: 14px;
+}
+
+p5{
+    text-decoration: underline;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p6{
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p7{
+    font-weight: bold;
+    color: black;
+    font-size: 19px;
+    
+}
+h4{
+    font-style: italic;
+    font-size: 16px;
+    color: rgba(182, 176, 176, 0.952);
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 50px;
+}
+.linkphone:hover{
+    color: lightskyblue;
+}
+
+
+/*button*/
+button#nicebutton{
+    width: 170px;
+    height: 50px;
+    border: 1px solid darkred;
+    border-radius: 7px;
+    transition: ease-out 0.8s;
+    font-size: 15px;
+    background-color: #90F2FF;
+    box-shadow: 5px 6px 10px 5px red;;
+    
+ 
+}
+
+button#nicebutton:hover{
+    border: 4px solid #90F2FF;
+    border-radius: 4px;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+button#nicebutton:hover:after{
+    content:"!!!";
+}

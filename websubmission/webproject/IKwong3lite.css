@@ -1,0 +1,35 @@
+/*Products Details*/
+.hero{
+    width:100%;
+}
+.row{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 45%;
+}
+.slider{
+    height: 80vh;
+    display: flex;
+}
+.product img{
+    height: 25vh;
+    cursor: pointer;
+}
+.preview img{
+    height: 80%;
+    margin-top: 80px;
+}
+.button{
+    margin: 35px;
+    align-items: center;
+    text-align: center;
+    width: 100;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}

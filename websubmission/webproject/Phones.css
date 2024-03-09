@@ -1,0 +1,176 @@
+/*Background*/
+body{
+  background:rgb(230, 230, 230);
+}
+
+/*Advertise1*/
+.adv{
+   background: radial-gradient(white,rgb(226, 223, 178));
+   background-size: cover;
+   display: flex;
+   align-items: flex-end;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   vertical-align: bottom;
+}
+.adv-1{
+   flex-basis: 50%;
+   min-width: 300px;
+}
+.adv-1 img{
+   max-width: 100%;
+   margin-top: 30px;
+}
+.adv-1 h1{
+   font-family: 'Poppins', sans-serif;
+   font-size: 40px;
+   line-height: 50px;
+   margin: 45px;
+}
+.adv-1 p{
+   font-family: 'Bitter', serif;
+   font-size: 20px;
+   line-height: 10px;
+   margin: 45px;
+}
+.btn{
+   display: inline-block;
+   background:black;
+   color:white;
+   text-align: center;
+   cursor: pointer;
+   padding: 15px 25px;
+   margin-bottom: 35px;
+   margin: 35px;
+   border-radius: 30px;
+   font-family: 'Train One', cursive;
+}
+
+/*Advertise2*/
+.adv2{
+   background: radial-gradient(white,rgb(121, 110, 110));
+   background-size: cover;
+   display: flex;
+   align-items: flex-end;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   vertical-align: bottom;
+}
+.adv-2{
+   flex-basis: 50%;
+   min-width: 300px;
+}
+.adv-2 img{
+   max-width: 100%;
+   margin-top: 30px;
+}
+.adv-2 h1{
+   font-family: 'Zilla Slab', cursive;
+   font-size: 50px;
+   line-height: 50px;
+   margin: 50px;
+}
+.adv-2 p{
+   font-family: 'Wellfleet', cursive;
+   font-size: 26px;
+   line-height: 20px;
+   margin: 45px;
+}
+.btn2{
+   display: inline-block;
+   background:white;
+   color:black;
+   text-align: center;
+   cursor: pointer;
+   padding: 15px 30px;
+   margin-bottom: 35px;
+   margin: 35px;
+   border-radius: 30px;
+   font-family: 'Faster One', cursive;
+   font-size: 18px;
+}
+
+/*Latest Products*/
+/*Featured Products*/
+.small-container{
+   background-color: rgb(53, 52, 52);
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto 6rem;
+   padding: 30px;
+}
+.row button{
+   background-color:rgb(122, 115, 115) ;
+   border: none;
+   color: white;
+   padding: 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 10px;
+   line-height: 0px;
+}
+.row p{
+   font-size: 20px;
+   margin-left: 75px;
+   line-height: 10px;
+}
+.row h2{
+   margin-left: 75px;
+   line-height: 0px;
+   font-size: 20px;
+}
+.column {
+   float: left;
+   width: 30%;
+   padding: 5px;
+   margin-left: 40px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+/*Buy Now*/
+.info {
+   display: inline-block;
+   background:rgb(238, 237, 164);
+   font-family: 'Bungee Shade', cursive;
+   color: red;
+   text-align: center;
+   cursor: pointer;
+   padding: 15px 30px;
+   margin: 40px;
+   border-radius: 30px;  
+}
+
+/*Scroll back to top button*/
+#topbtn {
+   display: none;
+   position: fixed;
+   bottom: 80px;
+   right: 0px;
+   z-index: 99;
+   font-size: 18px;
+   border: none;
+   outline: none;
+   background-color:rgb(73, 60, 60);
+   color: white;
+   cursor: pointer;
+   padding: 15px;
+   border-radius: 4px;
+   width:10px;
+   height:120px;
+   text-align: center;
+}
+
+#topbtn:hover {
+   background-color: #555;
+}
+  

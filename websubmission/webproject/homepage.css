@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* Welcome */
+
+.girlcalling {
+    position: relative;
+}
+
+.welcome {
+    position: absolute;
+    top: 8px;
+    left: 51%;
+    color:white;
+    
+}
+
+.welcome h1 {
+    color:#FFD523;
+}
+
+/* 3 month */
+.plan {
+    text-align: center;
+    background: linear-gradient(90deg, #d8b9e6,#94bae2);
+    height:500px;
+    border-radius: 20px;
+}
+
+
+#suggest {
+    padding-left:20%;
+}
+
+.moreplan {
+    text-align: center;
+}
+
+.moreplan a:link, .moreplan a:visited {
+    background-color: #4b0082;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid;
+  }
+
+.moreplan  a:hover, .moreplan a:active {
+    background-color: #d8b9e6;
+    color:#4b0082;
+    border: 2px solid #4b0082;
+}
+
+
+#suggest tr{
+    border: 2px solid #000080;
+    
+}
+
+#suggest td{
+    border: 2px solid #000080;
+    width: 33.33%;
+}
+
+.plan #suggest .bolddata {
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+/* howitwork */
+
+.howitworks {
+    text-align: center;
+}
+
+.howitworks h1 {
+    font-weight: 900;
+    font-size: 30px;
+    color:#000080;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#howitworks td {
+    width:25%;
+    height:200px;
+    color:white;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* coverage */
+.coverage {
+    color: #4b0082;
+    background: linear-gradient(90deg, #d8b9e6,#94bae2);
+    border-radius: 20px;
+    height: 350px;
+}
+
+.coverage h1 {
+    text-align: center;
+}
+
+.coverage .map {
+    padding-left:500px;
+}
+
+.coverage #map a:link, #map a:visited {
+    background-color: #4b0082;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid #EEEEEE;
+    width:100px;
+    
+  }
+
+.coverage #map a:hover, .coverage #map a:active {
+    background-color: #d8b9e6;
+    color:#4b0082;
+    border: 2px solid #4b0082;
+}
+
+/* phone */
+.phone {
+    background: linear-gradient(90deg, #d8b9e6,#94bae2);
+    color: #4b0082;
+}
+
+.phone h1{
+    text-align: center;
+}
+
+#moreplan a:link, #moreplan a:visited {
+    background: linear-gradient(to bottom, #4b0082,#d8b9e6);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid #EEEEEE;
+    width:100px;
+}
+
+ #moreplan a:hover,  #moreplan a:active {
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+}
+
+/* simcard */
+.simcard table{
+    margin: auto;
+}
+
+/* Footer */
+.footer {
+    
+    left:0;
+    height:320px;
+    background-color: black;
+    bottom:0;
+    width:100%;
+   
+}
+
+.footer .visit {
+    padding-top: 20px;
+    color:white;
+    padding-left: 15%;
+    line-height: 80%;    
+}
+
+.footer .visit a{
+    text-decoration-line: none;
+    font-size: 20px;
+}
+
+.footer .visit a img{
+    width:50px;
+    height:50px;
+    padding-left:15px;
+}
+
+.footer .visit a:visited, .footer .visit a:active {
+    background-color: black;
+    border: 0 black;
+    padding:0;
+    border-radius: 0;   
+}
+
+.footer .payment {
+    color:gray;
+    padding-left: 15%;
+    line-height: 80%;    
+    font-size: 13px;
+
+}
+
+.footer .payment a{
+    color:gray;
+    text-decoration: none;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,316 @@
+@charset "utf-8";
+
+/*Reviews*/
+.body{
+    background-color:beige;
+  }
+  
+  .Reviews{
+    height: 70vh;
+  }
+  
+  .Review{
+    max-width: 1500px;
+    padding: 0 1rem;
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+  
+  .title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+  }
+  
+  .subtitle{
+    color:black;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 1rem;
+    font-weight: bold ;
+  }
+  
+  .line{
+    color: black;
+    background-color: black;
+    font-size: 2px;
+  }
+  
+  .review{
+    margin: 0 1rem;
+    min-width: 100%;
+    display: flex; 
+  }
+  
+  .review > div{
+    width: 200%;
+    margin: 25px;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .people{
+    width: 35%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0,0,0, .25);
+  }
+  
+  .Comment{
+    background-color: rgb(238,238,238);
+    padding: 2.5rem;
+    box-shadow: 2px 2px 10px 3px rgb(225, 225, 225);
+  }
+  
+  .name{
+    font-family: monospace;
+    font-size: 1.6rem;
+    color: rgb(50, 50, 50);
+    margin-bottom: .25rem;
+  }
+  
+  .rating{
+    color: rgb(253, 180, 42);
+    margin: 1rem 0;
+  }
+  
+  .Review-Comment{
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    color: #7F7C82;
+  }
+  
+  /*Rating*/
+  .star-contain{
+    position: relative; left: 70px; top: 5px;
+    float: left;
+    width: 400px;
+    background: #111;
+    padding: 20px 30px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .star-contain .star input{
+    display: none;
+  }
+  
+  .star label{
+    font-size: 40px;
+    color: #444;
+    padding: 10px;
+    float: right;
+    transition: all 0.2s ease;
+  }
+  
+  input:not(checked) ~ label:hover,
+  input:not(checked) ~ label:hover ~ label{
+     color: rgb(253, 180, 42);
+  }
+  
+  input:checked ~ label{
+    color: rgb(253, 180, 42);
+  }
+  
+  #star-1:checked ~ form header:before{
+    content:"I hate it" ;
+  }
+  
+  #star-2:checked ~ form header:before{
+    content:"I don't like it" ;
+  }
+  
+  #star-3:checked ~ form header:before{
+    content:"I like it!" ;
+  }
+  
+  #star-4:checked ~ form header:before{
+    content:"I really love it!!" ;
+  }
+  
+  #star-5:checked ~ form header:before{
+    content:"It's Awesome!!!" ;
+  }
+  
+  form header{
+    width: 100%;
+    font-size: 25px;
+    font-family: monospace;
+    color: rgb(253, 180, 42);
+    font-weight: 500;
+    margin: 5px 0 20px 0;
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+  
+  form .textarea{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+  }
+  
+  form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    color: beige;
+    outline: none;
+    border: 1px solid #333;
+    padding: 10px;
+    font-size: 17px;
+    resize: none;
+  }
+  
+  form.button{
+    height: 45px;
+    width: 75%;
+    margin: 15px 0;
+  }
+  
+  form .button button{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #444;
+    outline: none;
+    color:beige;
+    background-color: rgb(39, 38, 38);
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  form .button button:hover{
+    background: #1b1b1b;
+  }
+  
+  /*Rating Box*/
+  .RatingBox{
+    width: 800px;
+    position: relative; top: -200px; right: -430px;
+  }
+  
+  .LeftRating{
+    float: left;
+    width: 5%;
+    margin-top:10px;
+    position: relative; right: 320px; top: 150px;
+  }
+  
+  .RightRating{
+    margin-top:10px;
+    float: left;
+    width: 95%;
+  }
+  
+  .Bar-Rating:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .Rating-Review::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .LeftRating{
+    float: left;
+    width: 30%;
+    margin-top:10px;
+    text-align: center;
+  }
+  
+  .RightRating{
+    float: left;
+    width: 70%;
+    margin-top:10px;
+  }
+  
+  .rating-title{
+    font-size: 56pt;
+  }
+  
+  .LeftRating-star{
+    margin: 0 0 10px 0;
+  }
+  
+  .RatingPerson .fa{
+    font-size: 11pt;
+  }
+  
+  .RightBar-container{
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    color: white;
+  }
+  
+  .bar-5 {height: 18px; background-color: #57bb8a;}
+  .bar-4 {height: 18px; background-color: #9ace6a;}
+  .bar-3 {height: 18px; background-color: #ffcf02;}
+  .bar-2 {height: 18px; background-color: #ff9f02;}
+  .bar-1 {height: 18px; background-color: #ff6f31;}
+  
+  .Rating-Star{
+    text-align: center;
+  }
+  
+  .Rating-Star .fa:hover{
+    color: orange;
+  }
+  
+  .leavereview {
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 500px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+  
+  .Heading{
+    font: 1em sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(2, 2, 2);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    position: relative; top: 150px;
+  }
+
+  /*Users Choices*/
+.UserChoices{
+    position: relative; top: -70px;
+  }
+  
+  .userchoice-text{
+    font-family: monospace;
+    font-weight: bold;
+  }
+  
+  .container{
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+  }
+  
+  .skills{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+  }
+  
+  .daily {width: 40%; background-color: #57CC99;}
+  .weekly {width: 55%; background-color: #39A2DB;}
+  .monthly {width: 15%; background-color: #ff6f31;}
+  

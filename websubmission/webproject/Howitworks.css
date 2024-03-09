@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* howitwork */
+
+.banner{
+    margin:0 auto;
+    width: 700px;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    z-index: -5;
+}
+
+.banner .imgban{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0px;
+    transition: ease-in-out 500ms;
+    -webkit-transition: all ease-in-out 500ms;
+    -moz-transition: all ease-in-out 500ms;
+    -o-transition: all ease-in-out 500ms;
+}
+
+.banner #imgban3{
+    background-image: url(image/banner3.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner #imgban2{
+    background-image: url(image/banner2.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner #imgban1{
+    background-image: url(image/banner1.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imgbanbtn{
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 4px;
+    position: absolute;
+    top: 180px;
+    z-index: 2000;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.imgbanbtn:hover{
+    opacity: 0.9;
+}
+
+.howitworks {
+    text-align: center;
+}
+
+.howitworks h1 {
+    font-weight: 900;
+    font-size: 30px;
+    color:#000080;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.howitworks td {
+    width:25%;
+    height:200px;
+    color:white;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.vid{
+    margin-left: 4%;
+    width: 80%;
+}
+
+.plan{
+    text-align: right;
+    margin-right: 22%;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+
+}
+
+table#step{
+    margin-left: auto; 
+    margin-right: auto;
+}
+table#step td{
+    width: 400px;
+    height: min-content;
+}
+p2{
+ font-size: 18px;
+
+}
+p3{
+    font-weight: bold;
+    font-size: 20px;
+}
